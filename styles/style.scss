@@ -1,0 +1,151 @@
+body {
+    background: #FAFAFC;
+    font-family: 'Roboto', sans-serif;
+
+    h1,
+    h2 {
+        font-family: 'Balsamiq Sans', cursive;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 52px;
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 32px;
+    }
+}
+
+// navbar
+.navbar {
+    padding: 30px 0;
+
+    .navbar-brand {
+        img {
+            max-height: 40px;
+        }
+    }
+
+    .navbar-nav .nav-link {
+        color: #00084e;
+
+        &:hover {
+            color: #1727b8;
+        }
+    }
+}
+
+//section header
+.section-about-me {
+
+    p {
+        font-weight: lighter;
+        font-size: 16px;
+        color: #4B4B4B;
+    }
+
+    img {
+        max-width: 352px;
+    }
+
+    .btn-contact-primary {
+        font-weight: lighter;
+        color: #ffffff;
+        background-color: #2457D7;
+
+        &:hover {
+            color: #ffffff;
+            background-color: #2b67ff;
+        }
+    }
+
+    .btn-contact-secondary {
+        font-weight: lighter;
+        color: #2457D7;
+
+        &:hover {
+            color: #2b67ff;
+        }
+    }
+}
+
+// section project
+.section-project {
+    margin-top: 110px;
+
+    .card-project {
+        max-width: 350px;
+        max-height: 285px;
+
+        img {
+            max-height: 172px;
+        }
+
+        hr {
+            margin-top: -2px;
+        }
+
+        .card-body {
+            h3 {
+                font-size: 22px;
+                margin-top: -25px;
+            }
+
+            p {
+                margin-top: -12px;
+                font-size: 12px;
+                color: #4B4B4B;
+            }
+
+            a {
+                float: right;
+                color: #666666;
+
+                &:hover {
+                    color: #272727;
+                }
+            }
+        }
+    }
+}
+
+// section-certificate
+.section-certificate {
+    margin-top: 110px;
+
+    img {
+        max-height: 190px;
+        max-width: 258px;
+    }
+}
+
+// section skill
+.section-skill {
+    margin-top: 110px;
+
+    img {
+        max-width: 100px;
+    }
+}
+
+// section contact
+.section-contact {
+    margin: 300px 0;
+
+    .btn-contact-primary {
+        font-weight: lighter;
+        color: #ffffff;
+        background-color: #2457D7;
+
+        &:hover {
+            color: #ffffff;
+            background-color: #2b67ff;
+        }
+    }
+
+    .icon-socialmedia {
+        height: 24px;
+    }
+}

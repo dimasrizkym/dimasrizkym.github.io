@@ -1,0 +1,139 @@
+body {
+  background: #FAFAFC;
+  font-family: 'Roboto', sans-serif;
+}
+
+body h1,
+body h2 {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+body h1 {
+  font-weight: 700;
+  font-size: 52px;
+}
+
+body h2 {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.navbar {
+  padding: 30px 0;
+}
+
+.navbar .navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #00084e;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #1727b8;
+}
+
+.section-about-me p {
+  font-weight: lighter;
+  font-size: 16px;
+  color: #4B4B4B;
+}
+
+.section-about-me img {
+  max-width: 352px;
+}
+
+.section-about-me .btn-contact-primary {
+  font-weight: lighter;
+  color: #ffffff;
+  background-color: #2457D7;
+}
+
+.section-about-me .btn-contact-primary:hover {
+  color: #ffffff;
+  background-color: #2b67ff;
+}
+
+.section-about-me .btn-contact-secondary {
+  font-weight: lighter;
+  color: #2457D7;
+}
+
+.section-about-me .btn-contact-secondary:hover {
+  color: #2b67ff;
+}
+
+.section-project {
+  margin-top: 110px;
+}
+
+.section-project .card-project {
+  max-width: 350px;
+  max-height: 285px;
+}
+
+.section-project .card-project img {
+  max-height: 172px;
+}
+
+.section-project .card-project hr {
+  margin-top: -2px;
+}
+
+.section-project .card-project .card-body h3 {
+  font-size: 22px;
+  margin-top: -25px;
+}
+
+.section-project .card-project .card-body p {
+  margin-top: -12px;
+  font-size: 12px;
+  color: #4B4B4B;
+}
+
+.section-project .card-project .card-body a {
+  float: right;
+  color: #666666;
+}
+
+.section-project .card-project .card-body a:hover {
+  color: #272727;
+}
+
+.section-certificate {
+  margin-top: 110px;
+}
+
+.section-certificate img {
+  max-height: 190px;
+  max-width: 258px;
+}
+
+.section-skill {
+  margin-top: 110px;
+}
+
+.section-skill img {
+  max-width: 100px;
+}
+
+.section-contact {
+  margin: 300px 0;
+}
+
+.section-contact .btn-contact-primary {
+  font-weight: lighter;
+  color: #ffffff;
+  background-color: #2457D7;
+}
+
+.section-contact .btn-contact-primary:hover {
+  color: #ffffff;
+  background-color: #2b67ff;
+}
+
+.section-contact .icon-socialmedia {
+  height: 24px;
+}
+/*# sourceMappingURL=style.css.map */
