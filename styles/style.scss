@@ -18,13 +18,20 @@ body {
     }
 }
 
-// navbar
+// navigatbar
 .navbar {
     padding: 30px 0;
 
     .navbar-brand {
         img {
             max-height: 40px;
+        }
+    }
+
+    Button {
+        .fa-bars {
+            color: #00084e;
+            font-size: 34px;
         }
     }
 
@@ -37,8 +44,10 @@ body {
     }
 }
 
-//section header
-.section-about-me {
+
+//header
+.about-me {
+    margin-top: 50px;
 
     p {
         font-weight: lighter;
@@ -71,81 +80,78 @@ body {
     }
 }
 
-// section project
-.section-project {
-    margin-top: 110px;
 
-    .card-project {
-        max-width: 350px;
-        max-height: 285px;
+// main
+main {
 
-        img {
-            max-height: 172px;
-        }
+    // section project
+    .section-project {
+        margin-top: 110px;
 
-        hr {
-            margin-top: -2px;
-        }
+        .card-project {
+            width: 340px;
 
-        .card-body {
-            h3 {
-                font-size: 22px;
-                margin-top: -25px;
+            img {
+                height: 172px;
             }
 
-            p {
-                margin-top: -12px;
-                font-size: 12px;
-                color: #4B4B4B;
-            }
+            .card-body {
+                h3 {
+                    font-size: 22px;
+                }
 
-            a {
-                float: right;
-                color: #666666;
+                p {
+                    font-size: 12px;
+                    color: #4B4B4B;
+                }
 
-                &:hover {
-                    color: #272727;
+                a {
+                    color: #666666;
+
+                    &:hover {
+                        color: #272727;
+                    }
                 }
             }
         }
     }
-}
 
-// section-certificate
-.section-certificate {
-    margin-top: 110px;
+    // section-certificate
+    .section-certificate {
+        margin-top: 110px;
 
-    img {
-        max-height: 190px;
-        max-width: 258px;
-    }
-}
-
-// section skill
-.section-skill {
-    margin-top: 110px;
-
-    img {
-        max-width: 100px;
-    }
-}
-
-// section contact
-.section-contact {
-    margin: 300px 0;
-
-    .btn-contact-primary {
-        font-weight: lighter;
-        color: #ffffff;
-        background-color: #2457D7;
-
-        &:hover {
-            color: #ffffff;
-            background-color: #2b67ff;
+        img {
+            height: 190px;
+            width: 258px;
         }
     }
 
-    .icon-socialmedia {
-        height: 24px;
+    // section skill
+    .section-skill {
+        margin-top: 110px;
+
+        img {
+            max-width: 100px;
+        }
+    }
+
+    // section contact
+    .section-contact {
+        margin: 320px 0;
+
+        .btn-contact-primary {
+            font-weight: lighter;
+            color: #ffffff;
+            background-color: #2457D7;
+
+            &:hover {
+                color: #ffffff;
+                background-color: #2b67ff;
+            }
+        }
+
+        .icon-social-media {
+            height: 24px;
+        }
     }
 }

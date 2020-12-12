@@ -10,20 +10,17 @@
 
 </head>
 <body>
-
-
     <!-- Navbar -->
-    <div class="container">
-        <div class="row navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
             <a href="#" class="navbar-brand ml-3">
                 <img src="images/logo/DRM-logo.png" alt="Logo" >
             </a>
             <Button class="navbar-toggler navbar-toggler-right"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navb"
-            >
-            <span class="navbar-toggler-icon"></span>
+                type="button"
+                data-toggle="collapse"
+                data-target="#navb">
+                <span class="fas fa-bars"></span>
             </Button>
             <div class="collapse navbar-collapse" id="navb">
                 <ul class="navbar-nav ml-auto ml-3">
@@ -42,100 +39,80 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </nav>
 
 
     <!-- header -->
     <header>
-        <section class="section-about-me pt-4">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-md-6 mt-1">
-                        <h2>Hallo, i'm Dimas Rizky Maulana</h2>
-                        <h1 class="mt-1">Junior Frontend Web Developer</h1>
-                        <p class="mt-3">I am a creative enthusiast who focuses on the web developer sector, especially on the frontend. I have studied this field for about a year and I have completed several projects. And I have also attended courses at several platforms in Indonesia.</p>
-                        <!-- <p class="mt-3">Saya adalah seorang creative enthusiast yang berfokus dibidang web developer terutama dibagian frontend. Saya telah mempelajari bidang ini kurang lebih satu tahun  dan saya telah menyelesaikan beberapa project. Serta saya juga telah mengikuti kursus dibeberapa platfrom yang  ada di Indonesia.</p> -->
-                        <a href="#" class="btn btn-contact-primary mt-4 px-3">Contact Me Via Email</a>
-                        <a href="#" class="btn btn-contact-secondary mt-4 px-3"><u>Download Cv</u></a>
-
-                    </div>
-                    <div class="col-md-4 mt-4">
-                        <img src="images/image.png" alt="my picture">
-                    </div>
+        <div class="container about-me">
+            <div class="row justify-content-between">
+                <div class="col-lg-6 mt-1">
+                    <h2>Hallo, i'm Dimas Rizky Maulana</h2>
+                    <h1 class="mt-1">Junior Frontend Web Developer</h1>
+                    <p class="mt-3">I am a creative enthusiast who focuses on the web developer sector, especially on the frontend. I have studied this field for about a year and I have completed several projects. And I have also attended courses at several platforms in Indonesia.</p>
+                    <!-- <p class="mt-3">Saya adalah seorang creative enthusiast yang berfokus dibidang web developer terutama dibagian frontend. Saya telah mempelajari bidang ini kurang lebih satu tahun  dan saya telah menyelesaikan beberapa project. Serta saya juga telah mengikuti kursus dibeberapa platfrom yang  ada di Indonesia.</p> -->
+                    <a href="#" class="btn btn-contact-primary mt-4 px-3">Contact Me Via Email</a>
+                    <a href="#" class="btn btn-contact-secondary mt-4 px-3"><u>Download Cv</u></a>
+                </div>
+                <div class="col-lg-auto"></div>
+                <div class="col-lg-4 mt-4">
+                    <img src="images/image.png" alt="my picture">
                 </div>
             </div>
-        </section>
+        </div>
     </header>
 
 
     <!-- main -->
     <main>
-
         <!-- section project -->
         <section class="section-project" id="project">
             <div class="container">
-                <h2>
-                    Project
-                </h2>
+                <h2>Project</h2>
                 <div class="row">
-                    <div class="col-md-4 mt-1">
+                    <div class="col-md-6 col-lg-4 mt-3">
                         <div class="card card-project shadow-sm">
-                            <img src="images/image.png" class="card-img-top" alt="img-project1">
-                            <hr>
+                            <img src="images/image.png" class="card-img-top" alt="img-project1" title="see code">
                             <div class="card-body">
-                                <h3 class="card-title">
-                                    Stories For Brands
-                                </h3>
+                                <h3 class="card-title">Title Project</h3>
                                 <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                                    sed do eiusmod tempor incididunt ut labore et dolore.
-                                </p>
-                                <a href="#">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <a href="#" class="card-link">
                                     <i class="fa fa-eye"></i>
                                 </a>
-                                <a href="#">
+                                <a href="#" class="card-link">
+                                    <i class="far fa-file-code mr-3" ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-3">
+                        <div class="card card-project shadow-sm">
+                            <img src="images/image.png" class="card-img-top" alt="img-project1">
+                            <div class="card-body">
+                                <h3 class="card-title">Title Project</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <a href="#" class="card-link">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                                <a href="#" class="card-link">
                                     <i class="far fa-file-code mr-3"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mt-1">
+                    <div class="col-md-6 col-lg-4 mt-3">
                         <div class="card card-project shadow-sm">
                             <img src="images/image.png" class="card-img-top" alt="img-project1">
-                            <hr>
                             <div class="card-body">
-                                <h3 class="card-title">
-                                    Stories For Brands
-                                </h3>
+                                <h3 class="card-title">Title Project</h3>
                                 <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                                    sed do eiusmod tempor incididunt ut labore et dolore.
-                                </p>
-                                <a href="#">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <a href="#" class="card-link">
                                     <i class="fa fa-eye"></i>
                                 </a>
-                                <a href="#">
-                                    <i class="far fa-file-code mr-3"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mt-1">
-                        <div class="card card-project shadow-sm">
-                            <img src="images/image.png" class="card-img-top" alt="img-project1">
-                            <hr>
-                            <div class="card-body">
-                                <h3 class="card-title">
-                                    Stories For Brands
-                                </h3>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                                    sed do eiusmod tempor incididunt ut labore et dolore.
-                                </p>
-                                <a href="#">
-                                    <i class="fa fa-eye"></i>
-                                </a>
-                                <a href="#">
+                                <a href="#" class="card-link">
                                     <i class="far fa-file-code mr-3"></i>
                                 </a>
                             </div>
@@ -150,16 +127,16 @@
             <div class="container">
                 <h2>Certificate</h2>
                 <div class="row">
-                    <div class="col-md-3 mt-1">
+                    <div class="col-md-6 col-lg-3 mt-3">
                         <img src="images/image.png" alt="certificate">
                     </div>
-                    <div class="col-md-3 mt-1">
+                    <div class="col-md-6 col-lg-3 mt-3">
                         <img src="images/image.png" alt="certificate">
                     </div>
-                    <div class="col-md-3 mt-1">
+                    <div class="col-md-6 col-lg-3 mt-3">
                         <img src="images/image.png" alt="certificate">
                     </div>
-                    <div class="col-md-3 mt-1">
+                    <div class="col-md-6 col-lg-3 mt-3">
                         <img src="images/image.png" alt="certificate">
                     </div>
                 </div>
@@ -171,19 +148,19 @@
             <div class="container">
                 <h2>Skill & Tools</h2>
                 <div class="row justify-content-center">
-                    <div class="col-md-2 mt-3">
+                    <div class="col-sm-4 col-md-2 mt-3">
                         <img src="images/skill_tools/ic-html5 1.png" alt="">
                     </div>
-                    <div class="col-md-2 mt-3">
+                    <div class="col-sm-4 col-md-2 mt-3">
                         <img src="images/skill_tools/ic-css3 1.png" alt="">
                     </div>
-                    <div class="col-md-2 mt-3">
+                    <div class="col-sm-4 col-md-2 mt-3">
                         <img src="images/skill_tools/ic-bootstrap 1.png" alt="">
                     </div>
-                    <div class="col-md-2 mt-3">
+                    <div class="col-sm-4 col-md-2 mt-3">
                         <img src="images/skill_tools/ic-vs-code 1.png" alt="">
                     </div>
-                    <div class="col-md-2 mt-3">
+                    <div class="col-sm-4 col-md-2 mt-3">
                         <img src="images/skill_tools/ic-github 1.png" alt="">
                     </div>
                 </div>
@@ -195,27 +172,26 @@
             <div class="container ">
                 <div class="text-center">
                     <h2>Interested working with me?</h2>
-                    <a href="#" class="btn btn-contact-primary mt-4 px-3">
+                    <a href="#" class="btn btn-contact-primary mt-4 px-3"> 
                         Contact Me Via Email
                     </a>
                     <div class="icon-contact rounded mx-auto mt-3">
                         <a href="#" class="mx-2">
-                            <img src="images/contact/facebook 1.png" alt="" class="icon-socialmedia">
+                            <img src="images/contact/facebook 1.png" alt="" class="icon-social-media">
                         </a>
                         <a href="#" class="mx-2">
-                            <img src="images/contact/instagram 1.png" alt="" class="icon-socialmedia">
+                            <img src="images/contact/instagram 1.png" alt="" class="icon-social-media">
                         </a>
                         <a href="#" class="mx-2">
-                            <img src="images/contact/telegram 1.png" alt="" class="icon-socialmedia">
+                            <img src="images/contact/telegram 1.png" alt="" class="icon-social-media">
                         </a>
                         <a href="#" class="mx-2">
-                            <img src="images/contact/whatsapp 1.png" alt="" class="icon-socialmedia">
+                            <img src="images/contact/whatsapp 1.png" alt="" class="icon-social-media">
                         </a>
                     </div>
                 </div>
             </div>
         </section>
-        
     </main>
 
 
@@ -231,8 +207,8 @@
     </footer>
 
     <script src="libraries/jquery/jquery-3.5.1.min.js"></script>
-    <script src="script/main.js"></script>
     <script src="libraries/bootstrap/js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/1c4bfc2e79.js" crossorigin="anonymous"></script>  
+    <script src="script/main.js"></script>
 </body>
 </html>
